@@ -1,0 +1,52 @@
+.home__highlight
+  position: absolute
+  bottom: 0
+  right: 0
+  margin-right: 10%
+
+  @media (max-width: 768px)
+    display: none
+    visibility: hidden
+
+
+.home__highlight__wrapper 
+  display: flex
+
+.home__highlight__label
+  font-weight: 600
+  position: absolute
+  top: 10.1rem
+  left: -13rem
+  transform: rotate(-90deg)
+  font-size: 2.2rem
+
+.home__highlight__image
+  position: relative
+  // width: 20vw
+  // height: 85vh
+  width: 52rem
+  height: 71.2rem
+
+.home__highlight__media
+  @extend %cover
+
+  object-fit: cover
+
+.home__highlight__title
+  font-family: $title
+  font-size: 2.6rem
+  color: $white
+  background: $text-color
+  @extend %flex-center
+  text-align: center
+
+  width: 22rem
+  height: 13rem
+
+  position: absolute
+  bottom: 0rem
+  left: -10rem
+  z-index: 1
+
+
+

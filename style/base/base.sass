@@ -1,0 +1,19 @@
+html
+  font-size: calc(100vw / 1920 * 10)
+  line-height: 1
+
+  @media (max-width: 768px)
+    font-size: calc(100vw / 750 * 10)
+  
+body
+  font-family: $body
+  color: $text-color
+  background: $bg-color
+  overflow: hidden
+
+main
+  padding: 0 1.6rem
+
+@media only screen and (max-width: 1180px), (max-height: 600px)
+  canvas
+    opacity: 0.5

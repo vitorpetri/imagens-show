@@ -1,0 +1,17 @@
+{
+  "name": "vitorpetri.com",
+  "version": "1.0.0",
+  "description": "https://vitorpetri.com/",
+  "scripts": {
+    "sass": "sass --watch style/index.sass style/css/index.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitorpetri/vitorpetri.com.git"
+  },
+  "author": "Vitor Petri Demantova",
+  "bugs": {
+    "url": "https://github.com/vitorpetri/vitorpetri.com/issues"
+  },
+  "homepage": "https://github.com/vitorpetri/vitorpetri.com#readme"
+}

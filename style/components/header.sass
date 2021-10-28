@@ -1,0 +1,27 @@
+.header
+  position: absolute
+  top: 0
+  left: 0
+
+  display: flex
+  align-items: center
+  justify-content: space-between
+
+  width: 90%
+
+  border-bottom: 6px solid $text-color
+
+.header__logo
+  position: relative
+  background: #000
+  top: 0
+  width: 16rem
+  height: 18.2rem
+
+.header__logo__icon
+  @extend %cover
+  object-fit: cover
+  
+.header__title
+  font-family: $title
+  font-size: 9.2rem 
