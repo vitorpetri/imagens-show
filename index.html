@@ -9,7 +9,7 @@
 
     <title>Imagens Show</title>
 
-    <link rel="shortcut icon" href="assets/icon.svg" type="image/svg">
+    <link rel="shortcut icon" href="assets/logo.svg" type="image/svg">
 
     <link rel="stylesheet" href="style/css/index.css">
 
@@ -53,15 +53,74 @@
               <span class="home__highlight__label">
                 imagem destacada
               </span>
-    
-              <div href="" class="home__highlight__image">
+
+              <!-- <div href="" class="home__highlight__image">
                 <img src="../../../assets/agostinho.png" alt="image" class="home__highlight__media">
-              </div>
-    
-              <div class="home__highlight__title">
+              </div> -->
+
+              <!-- <div class="home__highlight__title">
                 Agostinho <br>
                 no estilo
+              </div> -->
+
+              <div href="" class="home__highlight__image">
+                <script>
+                  var randNum = [
+                    1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18,
+                    19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31
+                  ]
+
+                  var item = randNum[Math.floor(Math.random()*randNum.length)]
+
+                  document.write(`<img
+                      src="../../../assets/banner/${item}.png"
+                      
+                      alt="Generative Squares
+                      class="home__highlight__media"
+                  >`)
+                </script>
               </div>
+        
+              <div class="home__highlight__title">
+                <script>
+                  var titles = [
+                    'Amaral <br> Gurgel',
+                    'Cloudy <br> Dream',
+                    'Live at <br> Knebworth',
+                    'Agostinho <br> no estilo',
+                    'Countershok',
+                    'Dream <br> chaser',
+                    'Splitstream',
+                    'Holy <br> window',
+                    'Grainy <br> Sunset',
+                    'Ligh <br> Arch',
+                    'Hexa <br> Arch',
+                    'Freedom <br> at Glance',
+                    'Emerald <br> Quazar',
+                    'Prismic <br> Reality',
+                    'Purple <br> Astros',
+                    'Calm <br> Jungle',
+                    'Multi <br> Parallax',
+                    'What <br> Matters?',
+                    'Clockwork',
+                    'Big <br> Zazzle',
+                    'Only us',
+                    'The <br> Dotted',
+                    'Bettwen <br> Humans',
+                    'Mosaic Art',
+                    'Blue <br> Cosmos',
+                    'Abstract <br> Brush',
+                    'Zima <br> Blue?',
+                    'Lava <br> Mosaic',
+                    'Flying <br> Caslte',
+                    'Space <br> Metro',
+                    'Psychedelic <br> Wave'
+                  ]
+
+                  document.write(titles[item -1])
+                </script>
+              </div>
+
             </div>
           </div>
         </section>
