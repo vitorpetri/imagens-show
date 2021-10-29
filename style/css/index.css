@@ -41,8 +41,8 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  color: #1B1B1B;
-  background: #FFD300;
+  color: #353431;
+  background: #E8DB99;
   overflow-x: hidden;
 }
 @media (mix-width: 768px) {
@@ -68,7 +68,7 @@ main {
   align-items: center;
   justify-content: space-between;
   width: 90%;
-  border-bottom: 6px solid #1B1B1B;
+  border-bottom: 6px solid #353431;
 }
 
 .header__logo {
@@ -105,7 +105,7 @@ main {
   transition: 250ms cubic-bezier(0.27, 0, 0.575, 1);
 }
 .home__nav:hover {
-  color: #002BFF;
+  color: #3251EF;
 }
 @media (max-width: 768px) {
   .home__nav {
@@ -167,13 +167,13 @@ main {
   font-size: 2.6rem;
   font-weight: 600;
   padding: 4.2rem 10rem;
-  border: 3px solid #1B1B1B;
+  border: 3px solid #353431;
   border-radius: 50%;
   transition: 250ms cubic-bezier(0.27, 0, 0.575, 1);
 }
 .home__content__button:hover {
-  color: #002BFF;
-  border: 3px solid #002BFF;
+  color: #3251EF;
+  border: 3px solid #3251EF;
 }
 @media (min-width: 768px) {
   .home__content__button {
@@ -220,8 +220,8 @@ main {
 .home__highlight__title {
   font-family: "Space Grotesk", sans-serif;
   font-size: 2.6rem;
-  color: #FEFEFE;
-  background: #1B1B1B;
+  color: #E8DB99;
+  background: #353431;
   text-align: center;
   width: 22rem;
   height: 13rem;
