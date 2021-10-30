@@ -5,7 +5,7 @@
 
 </p><p align="center">
  <a href="#">
-  <img src="src/assets/banner.png" alt="site" width="500px"/>
+  <img src="assets/banner.png" alt="site" width="500px"/>
  </a>
 </p>
  
