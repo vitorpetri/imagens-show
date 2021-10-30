@@ -15,7 +15,7 @@
   - Sass
   - Animate css
 
-### Galleria
+### Galeria
   - React.js
   - Chakra UI
   - Fauna DB
