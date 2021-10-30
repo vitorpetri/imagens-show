@@ -45,7 +45,7 @@ body {
   background: #E8DB99;
   overflow-x: hidden;
 }
-@media (mix-width: 768px) {
+@media (min-width: 768px) {
   body {
     overflow: hidden;
   }
@@ -141,13 +141,11 @@ main {
 
 .home__content {
   position: absolute;
-  top: 35%;
-  left: 16.4%;
+  top: 34%;
+  left: 15%;
   max-width: 70rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   gap: 6rem;
 }
 @media (max-width: 768px) {
@@ -164,6 +162,10 @@ main {
 }
 
 .home__content__button {
+  max-width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 2.6rem;
   font-weight: 600;
   padding: 4.2rem 10rem;
@@ -175,12 +177,6 @@ main {
   color: #3251EF;
   border: 3px solid #3251EF;
 }
-@media (min-width: 768px) {
-  .home__content__button {
-    transform: translateX(-11%) !important;
-  }
-}
-
 .home__highlight {
   position: absolute;
   bottom: 0;
