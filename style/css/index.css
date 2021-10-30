@@ -184,8 +184,10 @@ main {
 }
 @media (max-width: 768px) {
   .home__highlight {
-    top: 70%;
+    top: 62%;
+    right: 0;
     bottom: -58%;
+    height: 56.5%;
   }
 }
 
@@ -208,6 +210,11 @@ main {
   height: 76vh;
   background: #2B6CB0;
 }
+@media (max-width: 768px) {
+  .home__highlight__image {
+    height: 56vh;
+  }
+}
 
 .home__highlight__media {
   object-fit: cover;
@@ -222,14 +229,19 @@ main {
   width: 22rem;
   height: 13rem;
   position: absolute;
-  bottom: 0rem;
-  left: -10rem;
+  bottom: 0;
+  left: -16%;
   z-index: 1;
 }
 
 .about__text__1 {
   font-size: 7.2rem;
   font-family: "Space Grotesk", sans-serif;
+}
+@media (max-width: 768px) {
+  .about__text__1 {
+    width: 70rem;
+  }
 }
 
 .about__content__1 {
@@ -255,6 +267,13 @@ main {
   top: 55%;
   left: 54%;
   max-width: 70rem;
+}
+@media (max-width: 768px) {
+  .about__content__2 {
+    top: 65%;
+    max-width: 66rem;
+    left: 11%;
+  }
 }
 
 @media screen and (max-width: 800px) {
