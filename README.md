@@ -1,6 +1,6 @@
 </p><p align="center">
  <a href="#">
-  <img src="assets/banner.png" alt="site" width="500px"/>
+  <img src="assets/banner.png" alt="site" width="600px"/>
  </a>
 </p>
 
