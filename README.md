@@ -9,7 +9,7 @@
   Abrir Projeto
  </a> 
  
-## Team
+## Time
  - Eduardo Treichel
  - Maicon Santos
  - Valdecir Junior
