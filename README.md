@@ -13,7 +13,7 @@
  - Eduardo Treichel
  - Maicon Santos
  - Valdecir Junior
- - Vitor Petri Demantova
+ - Vitor Petri
 
 ## Tecnologias
 ### Homepage
