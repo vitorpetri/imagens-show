@@ -8,6 +8,12 @@
  <a href="https://imagens-show.ga/">
   Abrir Projeto
  </a> 
+ 
+## Time
+ - Eduardo Treichel
+ - Maicon Santos
+ - Valdecir Junior
+ - Vitor Petri
 
 ## Tecnologias
 ### Homepage
