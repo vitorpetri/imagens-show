@@ -8,6 +8,12 @@
  <a href="https://imagens-show.ga/">
   Abrir Projeto
  </a> 
+ 
+## Team
+ - Eduardo Treichel
+ - Maicon Santos
+ - Valdecir Junior
+ - Vitor Petri Demantova
 
 ## Tecnologias
 ### Homepage
