@@ -184,6 +184,14 @@ main {
 }
 @media (max-width: 768px) {
   .home__highlight {
+    top: 82%;
+    right: 0;
+    bottom: -58%;
+    height: 56.5%;
+  }
+}
+@media (max-width: 618px) {
+  .home__highlight {
     top: 62%;
     right: 0;
     bottom: -58%;
@@ -213,6 +221,7 @@ main {
 @media (max-width: 768px) {
   .home__highlight__image {
     height: 56vh;
+    bottom: -0.6vh;
   }
 }
 
