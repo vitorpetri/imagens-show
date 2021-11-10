@@ -34,6 +34,6 @@ Para ter uma cópia local instalada e funcionando, siga estas etapas simples.
    npm run sass
    ```
 
-_Galeria Imagens Show [Documentation](https://github.com/vitorpetri/galeria-imagens-show)_
+Galeria Imagens Show [Documentation](https://github.com/vitorpetri/galeria-imagens-show)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
